@@ -1,0 +1,78 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #E4DFD4;
+	color: #D86861;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: #22222C;
+	font-size: 48px;
+	padding: 0;
+	margin: 0;
+}
+
+.highlight {
+	color: #397B86;
+}
+
+.outerWrap {
+    height: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+.outerWrap:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    margin-right: -.25em;
+    height: 100%;
+}
+
+.innerWrap {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    padding: 0 1em;
+	text-align: left;
+}
+
+.introText {
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: -5px;
+}
+
+.introMore {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.icon {
+	display:inline-block;
+	width: 36px;
+	height: 36px;
+	padding-right: 36px;
+}
+
+.icon:hover {
+	opacity: 0.5;
+}
+
+.icon.github {
+	background: url("images/github.png") center no-repeat;
+}
+
+.icon.twitter {
+	background: url("images/twitter.png") center no-repeat;
+}
+
+.icon.soundcloud {
+	background: url("images/soundcloud.png") center no-repeat;
+}
